@@ -1,0 +1,1894 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/2627dccc6c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Myntra Clone</title>
+  </head>
+  <body class="" id="container">
+    <div
+      class="w-full h-full fixed -left-full"
+      id="myNavbar"
+      style="background-color: rgba(0, 0, 0, 0.482)"
+    >
+      <div class="w-9/12 h-screen bg-gray-100 fixed -left-3/4" id="navTwo">
+        <div class="h-20"></div>
+        <div>
+          <img
+            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2023/10/29/e3e71e2e-0d20-4f42-a02a-74e4c65317a31698602536826-Flat_200--2-.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="w-3/12 h-full fixed" id="navbar3" onclick="closeNav()"></div>
+    </div>
+    <header class="bg-gray-100 w-full fixed">
+      <div class="flex justify-between w-full h-20 items-center bg-white">
+        <div class="ml-4 lg:hidden" onclick="toggleNavbar()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="">
+          <img
+            src="https://mumbaimirror.indiatimes.com/photo/80601325.cms"
+            alt=""
+            class="hidden lg:h-10 ml-6 lg:block"
+          />
+        </div>
+        <nav class="hidden lg:flex gap-8 h-full">
+          <div
+            class="group flex items-center font-semibold text-sm hover:border-b-4 border-red-500 men"
+          >
+            <a href="" class="">MEN</a>
+            <div
+              class="lg: hidden fixed w-screen h-screen top-20 -left-2 group-hover:block"
+              style="background-color: rgba(0, 0, 0, 0.463)"
+            >
+              <div
+                class="flex justify-around bg-white w-4/5 h-2/3 fixed left-28"
+              >
+                <li class="w-1/5 ml-12" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div
+            class=" group flex items-center font-semibold text-sm hover:border-b-4 border-red-500"
+          >
+            <a href="">WOMEN</a>
+            <div
+              class="lg: hidden fixed w-screen h-screen top-20 -left-2 group-hover:block"
+              style="background-color: rgba(0, 0, 0, 0.463)"
+            >
+              <div
+                class="flex justify-around bg-white w-4/5 h-2/3 fixed left-28"
+              >
+                <li class="w-1/5 ml-12" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+          
+          <div
+            class="group flex items-center font-semibold text-sm hover:border-b-4 border-red-500"
+          >
+            <a href="">KIDS</a>
+            <div
+              class="lg: hidden fixed w-screen h-screen top-20 -left-2 group-hover:block"
+              style="background-color: rgba(0, 0, 0, 0.463)"
+            >
+              <div
+                class="flex justify-around bg-white w-4/5 h-2/3 fixed left-28"
+              >
+                <li class="w-1/5 ml-12" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group flex items-center font-semibold text-sm hover:border-b-4 border-red-500"
+          >
+            <a href="">HOME & LIVING</a>
+            <div
+              class="lg: hidden fixed w-screen h-screen top-20 -left-2 group-hover:block"
+              style="background-color: rgba(0, 0, 0, 0.463)"
+            >
+              <div
+                class="flex justify-around bg-white w-4/5 h-2/3 fixed left-28"
+              >
+                <li class="w-1/5 ml-12" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group flex items-center font-semibold text-sm hover:border-b-4 border-red-500"
+          >
+            <a href="">BEAUTY</a>
+            <div
+              class="lg: hidden fixed w-screen h-screen top-20 -left-2 group-hover:block"
+              style="background-color: rgba(0, 0, 0, 0.463)"
+            >
+              <div
+                class="flex justify-around bg-white w-4/5 h-2/3 fixed left-28"
+              >
+                <li class="w-1/5 ml-12" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4 bg-gray-100" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="w-1/5 pl-4" style="list-style: none">
+                  <ul>
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Topwear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">T-shirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Casual shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Formal shirts</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sweatshirt</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Swater</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Jaket</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Blazer & coats</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Suit</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Rain Jakats</a>
+                    </li>
+                    <hr class="w-40 mt-4" />
+                    <li class="font-bold mt-2" style="color: rgb(255, 78, 120)">
+                      Indian & Festive Wear
+                    </li>
+                    <li class="mt-2 font-xs font-thin hover:font-bold">
+                      <a href="">Kurtas & Kurta sets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Sherwanis</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Neharu Jakets</a>
+                    </li>
+                    <li class="font-xs font-thin hover:font-bold">
+                      <a href="">Dhotis</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group flex items-center font-semibold text-sm hover:border-b-4 border-red-500"
+          >
+            <a href="">STUDIO</a
+            ><sup class="text-pink-500 hover:border-b-4 border-red-500"
+              >NEW</sup
+            >
+          </div>
+        </nav>
+        <div class="hidden lg:flex border-0 rounded h-10 w-1/3 bg-gray-100">
+          <div class="flex items-center">
+            <i class="fa-solid fa-magnifying-glass px-2"></i>
+          </div>
+          <input
+            type="text"
+            placeholder="Search for products, brand and more"
+            class="w-full bg-gray-100 rounded outline-none"
+          />
+        </div>
+        <div class="flex gap-3 mr-6">
+          <div class="text-center">
+            <i class="fa-solid fa-user"></i>
+            <h6 class="hidden lg:block">Profile</h6>
+          </div>
+          <div class="text-center">
+            <i class="fa-regular fa-heart"></i>
+            <h6 class="hidden lg:block">Wishlist</h6>
+          </div>
+          <div class="text-center">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <h6 class="hidden lg:block">Bag</h6>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="">
+      <div>
+        <div class="h-24 bg-gray-100"></div>
+        <img
+          src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2024/1/1/befe1a50-63d3-4961-be77-abab31cfaedf1704115450252-300.png"
+          alt=""
+          class="w-full"
+        />
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/28/286b9043-e0cd-4660-af08-259fc328a3dc1703764930104-DESKTOP-HP-BANNER_01.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/28/f34b69d8-a5b8-4577-a8fe-c9c84c6c31fe1703764930110-DESKTOP-HP-BANNER_02.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/a72f4109-1fcb-4528-9a26-011e3aed66041703817159668-COUPONS-CORNER--3-.jpg"
+            alt=""
+            class="w-full"
+          />
+        </div>
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/611eaeff-16dd-4982-8253-00cd178c65721703815765285-MYNTRA200-----2.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/bd900213-97e2-436e-bdef-2498343d4aa31703815765272-MYNTRA100-----1.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/62b20a93-9d2c-406d-b635-1943b3b8764d1703817159680-Crazy-Deals--5-.jpg"
+            alt=""
+            class="w-full"
+          />
+        </div>
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/28/d262396a-84d6-425f-ba59-e146b871dbd71703749579294-image_png_1017633215.png"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/28/2c189683-40db-41ba-8823-47faf37931b01703749591462-image_png_1908527187.png"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/28/1def4c08-dc93-40cc-8341-45602296a9171703749604841-image_png111673900.png"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/22/baa63eb5-afda-4f3c-9661-94df0deba3861703231731061-_18965747722F53ed9a6c_c374_41a5_8789_e333447f044f-2Fimage_png509942625.png"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/22/465082b9-7757-4c14-a11f-f559e73ee08b1703224055356-HL_ketch_-more_min_65.png"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/22/e6c55c55-361a-41db-b126-e01f83cab4e81703224055416-Levis-_USPA_Min_50.png"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/22/e6c55c55-361a-41db-b126-e01f83cab4e81703224055416-Levis-_USPA_Min_50.png"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/bcc637c5-43e6-45a6-8c2b-629c5be116e91703817159690-Grand-Opening-Offers-----1.jpg"
+            alt=""
+            class="w-full"
+          />
+        </div>
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/2a106425-d6fc-4902-b028-8b012899e0a31703815931000-Shop-By-Category_HP_02.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/9b789223-079f-4c38-a35d-5bada4254fd91703815931006-Shop-By-Category_HP_03.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/c6bf893b-e441-4c8a-997c-0eb67bc4f2041703815931010-Shop-By-Category_HP_04.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/9f955ce3-c384-4fbf-a18c-f8743c7b04a81703815931015-Shop-By-Category_HP_05.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/99007ac6-4dd6-44cf-b56b-8b02081239b91703815931020-Shop-By-Category_HP_06.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/97b7fb23-3e77-42cd-a51b-9fa3a5cf0c9a1703815931025-Shop-By-Category_HP_07.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/c9a42c8b-7019-4757-877f-ad2fc053d18e1703815931030-Shop-By-Category_HP_08.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/b9240b41-c1b6-40a4-aab3-8522903e94b51703815931035-Shop-By-Category_HP_09.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/8aaaa580-4589-479a-a263-1f92e68605361703815931040-Shop-By-Category_HP_10.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/bf264cc4-f439-484e-8e94-6a01def4e8ae1703815931045-Shop-By-Category_HP_11.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/68574283-8afc-4de8-b977-fa630e26f6691703815931050-Shop-By-Category_HP_12.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/9c81ed54-3af4-4a83-9cbd-b2649e4c63981703815931055-Shop-By-Category_HP_13.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/c9a42c8b-7019-4757-877f-ad2fc053d18e1703815931030-Shop-By-Category_HP_08.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/b9240b41-c1b6-40a4-aab3-8522903e94b51703815931035-Shop-By-Category_HP_09.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/8aaaa580-4589-479a-a263-1f92e68605361703815931040-Shop-By-Category_HP_10.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/bf264cc4-f439-484e-8e94-6a01def4e8ae1703815931045-Shop-By-Category_HP_11.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/68574283-8afc-4de8-b977-fa630e26f6691703815931050-Shop-By-Category_HP_12.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/9c81ed54-3af4-4a83-9cbd-b2649e4c63981703815931055-Shop-By-Category_HP_13.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/c9a42c8b-7019-4757-877f-ad2fc053d18e1703815931030-Shop-By-Category_HP_08.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/b9240b41-c1b6-40a4-aab3-8522903e94b51703815931035-Shop-By-Category_HP_09.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/8aaaa580-4589-479a-a263-1f92e68605361703815931040-Shop-By-Category_HP_10.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/bf264cc4-f439-484e-8e94-6a01def4e8ae1703815931045-Shop-By-Category_HP_11.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/68574283-8afc-4de8-b977-fa630e26f6691703815931050-Shop-By-Category_HP_12.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/9c81ed54-3af4-4a83-9cbd-b2649e4c63981703815931055-Shop-By-Category_HP_13.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/c9a42c8b-7019-4757-877f-ad2fc053d18e1703815931030-Shop-By-Category_HP_08.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/b9240b41-c1b6-40a4-aab3-8522903e94b51703815931035-Shop-By-Category_HP_09.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/8aaaa580-4589-479a-a263-1f92e68605361703815931040-Shop-By-Category_HP_10.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/bf264cc4-f439-484e-8e94-6a01def4e8ae1703815931045-Shop-By-Category_HP_11.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/68574283-8afc-4de8-b977-fa630e26f6691703815931050-Shop-By-Category_HP_12.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/9c81ed54-3af4-4a83-9cbd-b2649e4c63981703815931055-Shop-By-Category_HP_13.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div class="flex">
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/d94c5a94-bda9-403c-b63e-06fd2624fb591703815931159-Shop-By-Category_HP_32.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/00677099-5982-4827-af06-1715bc754cf11703815931164-Shop-By-Category_HP_33.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/feab41c7-8cd5-44a5-85e6-d6ab8ef033981703815931170-Shop-By-Category_HP_34.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/64ef951f-eb8f-4df0-8ce3-dc6a5af234d91703815931175-Shop-By-Category_HP_35.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <div class="w-full">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/a5695e9f-b65f-46be-9cec-82e04931a64a1703815931181-Shop-By-Category_HP_36.jpg"
+              alt=""
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/12/29/3ddd1117-6d76-4363-9020-697e721a681c1703817404906-App-Install-Banner.jpg"
+            alt=""
+            class="w-full"
+          />
+        </div>
+        <div>
+          <footer class="bg-gray-100">
+            <div class="flex justify-center mt-6 pt-6">
+              <div class="flex w-2/3 flex-wrap justify-center">
+                <div class="pr-6">
+                  <h6 class="font-semibold text-sm my-3">ONLINE SHOPPING</h6>
+                  <h6 class="mt-4 mb-2 font-thin">Men</h6>
+                  <h6 class="mb-2 font-thin">Women</h6>
+                  <h6 class="mb-2 font-thin">Kids</h6>
+                  <h6 class="mb-2 font-thin">Home & Living</h6>
+                  <h6 class="mb-2 font-thin">Beauty</h6>
+                  <h6 class="mb-2 font-thin">Gift Cards</h6>
+                  <h6 class="mb-2 font-thin">Myntra Insider</h6>
+                  <h6 class="font-semibold text-sm mt-5 mb-4">USEFUL LINKS</h6>
+                  <h6 class="mt-4 mb-2 font-thin">Blog</h6>
+                  <h6 class="mb-2 font-thin">Careers</h6>
+                  <h6 class="mb-2 font-thin">Site Map</h6>
+                  <h6 class="mb-2 font-thin">Corporate Information</h6>
+                  <h6 class="mb-2 font-thin">Whitehat</h6>
+                  <h6 class="mb-2 font-thin">Cleartrip</h6>
+                </div>
+                <div class="pr-6">
+                  <h6 class="font-semibold text-sm my-3">Contact Us</h6>
+                  <h6 class="mt-4 mb-2 font-thin">FAQ</h6>
+                  <h6 class="mb-2 font-thin">T&C</h6>
+                  <h6 class="mb-2 font-thin">Terms Of Use</h6>
+                  <h6 class="mb-2 font-thin">Track Orders</h6>
+                  <h6 class="mb-2 font-thin">Shipping</h6>
+                  <h6 class="mb-2 font-thin">Cancellation</h6>
+                  <h6 class="mb-2 font-thin">Returns</h6>
+                  <h6 class="mb-2 font-thin">Privacy policy</h6>
+                  <h6 class="mb-2 font-thin">Grievance Officer</h6>
+                </div>
+                <div class="pr-8">
+                  <h6 class="font-semibold text-sm my-3">
+                    EXPERIENCE MYNTRA APP ON MOBILE
+                  </h6>
+                  <div class="flex mt-4 mb-2 font-thin flex-wrap">
+                    <div class="w-36 mr-2">
+                      <img
+                        src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="w-32">
+                      <img
+                        src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <h6 class="font-semibold text-sm mt-5 mb-4">KEEP IN TOUCH</h6>
+                  <div class="flex mt-4 mb-2 font-thin text-2xl">
+                    <i class="fa-brands fa-square-facebook mr-4"></i>
+                    <i class="fa-brands fa-twitter mr-4"></i>
+                    <i class="fa-brands fa-youtube mr-4"></i>
+                    <i class="fa-brands fa-square-instagram mr-4"></i>
+                  </div>
+                </div>
+                <div class="w-72">
+                  <div class="flex mt-3.5 mb-7">
+                    <div class="mr-2 w-20">
+                      <img
+                        src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+                        alt=""
+                      />
+                    </div>
+                    <p>
+                      <strong>100% ORIGINAL</strong> guarantee for all products
+                      at myntra.com
+                    </p>
+                  </div>
+                  <div class="flex">
+                    <div class="mr-2 w-20">
+                      <img
+                        src="https://assets.myntassets.com/assets/images/retaillabs/2023/5/22/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png"
+                        alt=""
+                      />
+                    </div>
+                    <p>
+                      <strong>100% ORIGINAL</strong> guarantee for all products
+                      at myntra.com
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      const container = document.getElementById("container");
+      const navbar = document.getElementById("myNavbar");
+      const navbar2 = document.getElementById("navTwo");
+      const navbar3 = document.getElementById("navbar3");
+      let isClicked = false;
+      function toggleNavbar() {
+        isClicked = true;
+        if (isClicked) {
+          //   isClicked = !isClicked
+          navbar.classList.toggle("-left-full");
+          navbar2.classList.toggle("-left-3/4");
+          container.classList.add("overflow-hidden");
+          navbar3.classList.add("right-0");
+        }
+      }
+
+      function closeNav() {
+        container.classList.toggle("overflow-hidden");
+        navbar2.classList.add("-left-3/4");
+        navbar.classList.add("-left-full");
+        navbar3.classList.toggle("right-0");
+      }
+    </script>
+  </body>
+</html>
