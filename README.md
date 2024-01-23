@@ -13,7 +13,7 @@ I made a Myntra clone from scratch to end **(This is a frontend Project).** This
 
 git init
 git add .
-git commit -m "https://github.com/aditya9-2/Netflix-Clone--Frontend-only-.git"
+git commit -m "https://github.com/AwesomeArunava/Myntra-Clone.git"
 git remote add origin "reposatory link"
 git push -u -f origin master
 
